@@ -1,16 +1,71 @@
-# anime_app
+# 🎬 Mini Anime App (UI Only) – Clean Architecture
 
-A new Flutter project.
+This is a *UI-only Flutter application* implemented using *Clean Architecture principles*.  
+The goal was to practice writing *clean, maintainable code* and separating concerns even in a simple UI app.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
+- Pixel-perfect UI based on provided Figma design  
+- Layered architecture (Presentation, Domain, Data)  
+- Modular & reusable widgets  
+- Clean Code practices  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🏗 Architecture Decisions
+Even though the app is UI-only, the project is structured using *Clean Architecture*:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- *Presentation Layer*  
+  - Handles UI & State management (Cubit in this case).  
+
+- *Domain Layer*  
+  - Defines entities and use-cases (even if mocked).  
+
+- *Data Layer*  
+  - Provides mock data (to simulate API responses).  
+
+This structure ensures scalability if future features (e.g., API integration) are added.
+
+---
+
+## 📂 Project Structure
+---
+lib
+│── core
+│
+├── featuters
+│   └── home
+│       ├── data
+│       ├── logic
+│       └── presenation
+│           ├── cubit
+│           ├── screens
+│           └── widget
+
+
+## 🖼 Screenshots
+
+### Home Screen  
+![Home Screen](assets\images\home.jpg)
+
+### Anime Details  
+![Anime Details](assets\images\detils.jpg)
+
+### upgrade / upgrade Screen  
+![Favorites Screen](assets\images\upgrade.jpg)
+
+---
+
+## 🚀 Getting Started
+1. Clone the repository
+2. Run flutter pub get
+3. Run flutter run
+
+---
+
+## 🛠 Tech Stack
+- Flutter  
+- Dart  
+- Clean Architecture  
+- State Management: Cubit
