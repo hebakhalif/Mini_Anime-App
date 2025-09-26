@@ -61,11 +61,3 @@ lib
 1. Clone the repository
 2. Run flutter pub get
 3. Run flutter run
-
----
-
-## 🛠 Tech Stack
-- Flutter  
-- Dart  
-- Clean Architecture  
-- State Management: Cubit
