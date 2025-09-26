@@ -46,15 +46,11 @@ lib
 
 ## 🖼 Screenshots
 
-### Home Screen  
-![Home Screen](assets/images/home.jpg)
-
-### Anime Details  
-![Anime Details](assets/images/detils.jpg)
-
-### Upgrade Screen  
-![Upgrade Screen](assets/images/upgrade.jpg)
-
+<p align="center">
+  <img src="assets/images/home.jpg" alt="Home Screen" width="30%"/>
+  <img src="assets/images/detils.jpg" alt="Anime Details" width="30%"/>
+  <img src="assets/images/upgrade.jpg" alt="Upgrade Screen" width="30%"/>
+</p>
 ---
 
 ## 🚀 Getting Started
