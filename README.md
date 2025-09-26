@@ -47,13 +47,13 @@ lib
 ## 🖼 Screenshots
 
 ### Home Screen  
-![Home Screen](assets\images\home.jpg)
+![Home Screen](assets/images/home.jpg)
 
 ### Anime Details  
-![Anime Details](assets\images\detils.jpg)
+![Anime Details](assets/images/detils.jpg)
 
-### upgrade / upgrade Screen  
-![Favorites Screen](assets\images\upgrade.jpg)
+### Upgrade Screen  
+![Upgrade Screen](assets/images/upgrade.jpg)
 
 ---
 
